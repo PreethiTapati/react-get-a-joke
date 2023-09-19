@@ -6,7 +6,6 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-   box-shadow: 0.3s ease;
 }
 
 .btn {
@@ -21,19 +20,15 @@
   border-left: none;
   border-right: none;
   border-radius: 12px;
-  transition: 0.10s ease;
-  box-shadow: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 
-.btn:hover,
-.btn:focus {
+.btn:hover{
   background-color:#f2b2e8; 
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
-.btn:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+
 .error {
   color: #ff0000; /* Error text color */
   font-weight: bold;

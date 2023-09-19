@@ -14,8 +14,8 @@
   border-radius: 30Px;
 }
 
-.green,
-.red {
+.violet,
+.pink {
   width: 104px;
   height: 38px;
   margin-top: 32px;
@@ -26,12 +26,12 @@
   font-family: 'Oswald', sans-serif;
 }
 
-.red {
-  background-color: #ee0b0bc7;
+.violet {
+  background-color: #ebafe8c7;
   color: #ffffff;
 }
 
-.green {
-  background-color: #5dee5fb3;
+.pink{
+  background-color: #e43dc5b3;
   color: #ffffff;
 }
