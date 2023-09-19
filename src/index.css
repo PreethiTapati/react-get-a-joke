@@ -14,6 +14,6 @@ body {
   height: 102vh;
   font-family: "Mooli", sans-serif;
   color: white;
-  background: url('/public/jokebg.png') center/cover no-repeat fixed;
+  background: url('/jokebg.png') center/cover no-repeat fixed;
   
 }
