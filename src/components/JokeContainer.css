@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+   box-shadow: 0.3s ease;
+}
+
+.btn {
+  width: 240px;
+  height: 40px;
+  background-color:#8b51867d;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Croissant One', cursive;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  border-left: none;
+  border-right: none;
+  border-radius: 12px;
+  transition: 0.10s ease;
+  box-shadow: 0.3s ease;
+}
+
+
+.btn:hover,
+.btn:focus {
+  background-color:#f2b2e8; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.btn:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+.error {
+  color: #ff0000; /* Error text color */
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
