@@ -19,7 +19,7 @@ const Joke = ({joke}) => {
 
     <div className="btn-container">
         {Object.entries(joke.flags).map(([key, value]) => (
-           <button className={value ? 'violet' : 'pink'} key={key}>
+           <button className={value ? 'violet' : 'blue'} key={key}>
             {key}
            </button>
         ))}
